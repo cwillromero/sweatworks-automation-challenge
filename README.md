@@ -23,7 +23,7 @@ The objective of the framework is to reduce the test time effort and give a quic
 - **fixtures/** contains static data files used in the tests, such as JSON files for test data.
 - **e2e/** contains all the tests for the website.
 - **page_object/** contains the locators and actions of each page.
-- **results/** contains the xml files that each .spec file generates when tests are run. tests run.
+- **results/** contains the xml files that each .spec file generates when tests are run.
 - **.env** contains the credentials for log in.
 - **cypress.config.js** contains the cypress configuration.
 
@@ -66,7 +66,7 @@ To test with different users, update the `SAUCE_USERNAME` variable in the `.env`
 Ensure that only one username is uncommented at a time to avoid conflicts.
 
 ## Usage
-### Run All Tests in a specific browser
+### Run All Tests in a specific browser in headless mode
 ```
 npm run cy:run -- --browser [browser]
 ```
